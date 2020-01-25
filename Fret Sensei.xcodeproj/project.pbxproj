@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B13FA331C929A49007B0F51 /* HomeScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B13FA321C929A49007B0F51 /* HomeScene.swift */; };
+		8B15327D1CCA023B00D51A1B /* fretSensei-Launch.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B15327C1CCA023B00D51A1B /* fretSensei-Launch.png */; };
+		8B244BF41C893AA500681A9E /* settingsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B244BF31C893AA500681A9E /* settingsButton.swift */; };
+		8B3601A21CACD5DC00A36319 /* string.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B3601A11CACD5DC00A36319 /* string.png */; };
+		8B48EA5F1CAA9246002FD1C8 /* starButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B48EA5E1CAA9246002FD1C8 /* starButton.png */; };
+		8B48EA651CAAAF71002FD1C8 /* background-fretsensei.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B48EA641CAAAF71002FD1C8 /* background-fretsensei.png */; };
+		8B48EA671CAAB446002FD1C8 /* homeButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B48EA661CAAB446002FD1C8 /* homeButton.png */; };
+		8B640A661CBDF23D00EBE832 /* fretSenseiCorrect.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8B640A651CBDF23D00EBE832 /* fretSenseiCorrect.m4a */; };
+		8B640A681CBDF40400EBE832 /* fretSenseiWrong.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8B640A671CBDF40400EBE832 /* fretSenseiWrong.m4a */; };
+		8B6660511CC7A6AB0022926E /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B6660501CC7A6AB0022926E /* SpriteKit.framework */; };
+		8B697DBD1CAD08D900CA694D /* headstockWood.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B697DBC1CAD08D900CA694D /* headstockWood.png */; };
+		8B697DBF1CAD0CC700CA694D /* nut.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B697DBE1CAD0CC700CA694D /* nut.png */; };
+		8B697DC51CAD1F0900CA694D /* triangle.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B697DC41CAD1F0900CA694D /* triangle.png */; };
+		8B697DC91CAD2B0700CA694D /* peach.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B697DC81CAD2B0700CA694D /* peach.png */; };
+		8B98E97F1C98E68100772F72 /* DemoScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B98E97E1C98E68100772F72 /* DemoScene.swift */; };
+		8B98E9811C98F31500772F72 /* pointer.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B98E9801C98F31500772F72 /* pointer.png */; };
+		8B98E98C1C990F5D00772F72 /* fingerNoShadow.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B98E98A1C990F5D00772F72 /* fingerNoShadow.png */; };
+		8B98E98D1C990F5D00772F72 /* fingerWithShadow.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B98E98B1C990F5D00772F72 /* fingerWithShadow.png */; };
+		8BA1A8821C6ED75000F90C2D /* Fret.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA1A8811C6ED75000F90C2D /* Fret.swift */; };
+		8BA1A8841C6EE25C00F90C2D /* FretString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA1A8831C6EE25C00F90C2D /* FretString.swift */; };
+		8BAEE4C11CC2319C00A8D978 /* fretSenseiJingle.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8BAEE4C01CC2319C00A8D978 /* fretSenseiJingle.m4a */; };
+		8BB2E5AD1CC0E75A00871D31 /* speakerON.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BB2E5AB1CC0E75A00871D31 /* speakerON.png */; };
+		8BB2E5AE1CC0E75A00871D31 /* speakerMute.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BB2E5AC1CC0E75A00871D31 /* speakerMute.png */; };
+		8BB746C91C706F2100E39610 /* FretBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB746C81C706F2100E39610 /* FretBoard.swift */; };
+		8BBEDA951CBF4EDE0081E182 /* Instabug.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8BBEDA931CBF4EDE0081E182 /* Instabug.bundle */; };
+		8BBEDA961CBF4EDE0081E182 /* Instabug.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BBEDA941CBF4EDE0081E182 /* Instabug.framework */; };
+		8BBEDA981CBF4EEB0081E182 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BBEDA971CBF4EEB0081E182 /* CoreGraphics.framework */; };
+		8BBEDA9A1CBF4EF10081E182 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BBEDA991CBF4EF10081E182 /* CoreTelephony.framework */; };
+		8BBEDA9C1CBF4EFF0081E182 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BBEDA9B1CBF4EFF0081E182 /* SystemConfiguration.framework */; };
+		8BBEDA9E1CBF4F040081E182 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BBEDA9D1CBF4F040081E182 /* UIKit.framework */; };
+		8BBEDAA01CBF4F0B0081E182 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BBEDA9F1CBF4F0B0081E182 /* AVFoundation.framework */; };
+		8BBEDAA21CBF4F120081E182 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BBEDAA11CBF4F120081E182 /* CoreMotion.framework */; };
+		8BC013971CA93F230084DB46 /* fretBoardWood.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BC013961CA93F230084DB46 /* fretBoardWood.png */; };
+		8BC046E31C87308F005CEA3D /* OpeningScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC046E21C87308F005CEA3D /* OpeningScene.swift */; };
+		8BC046E51C8730A1005CEA3D /* SettingScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC046E41C8730A1005CEA3D /* SettingScene.swift */; };
+		8BC2FF6A1C76C70300A185D4 /* FretSensei.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC2FF691C76C70300A185D4 /* FretSensei.swift */; };
+		8BC86E361C94E83800D3B97E /* AcoomplishmentScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC86E351C94E83800D3B97E /* AcoomplishmentScene.swift */; };
+		8BC9CD8E1C6B052A008FEF3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC9CD8D1C6B052A008FEF3E /* AppDelegate.swift */; };
+		8BC9CD921C6B052A008FEF3E /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC9CD911C6B052A008FEF3E /* GameScene.swift */; };
+		8BC9CD941C6B052A008FEF3E /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC9CD931C6B052A008FEF3E /* GameViewController.swift */; };
+		8BC9CD971C6B052A008FEF3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BC9CD951C6B052A008FEF3E /* Main.storyboard */; };
+		8BC9CD991C6B052A008FEF3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BC9CD981C6B052A008FEF3E /* Assets.xcassets */; };
+		8BC9CD9C1C6B052A008FEF3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BC9CD9A1C6B052A008FEF3E /* LaunchScreen.storyboard */; };
+		8BCBBACD1C8141E000BA63C1 /* button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCBBACC1C8141E000BA63C1 /* button.swift */; };
+		8BEFC4E11CB25FCD00C2DFE2 /* settingsButtonWithHole.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BEFC4E01CB25FCD00C2DFE2 /* settingsButtonWithHole.png */; };
+		8BEFC4EB1CB28EF600C2DFE2 /* background-plain.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BEFC4EA1CB28EF600C2DFE2 /* background-plain.png */; };
+		8BF8BB771CD208D2004E6C2A /* fretSenseiClick.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8BF8BB761CD208D2004E6C2A /* fretSenseiClick.m4a */; };
+		8BFB3BC91CC152A700CD8BAB /* pick.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BFB3BC81CC152A700CD8BAB /* pick.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8B13FA321C929A49007B0F51 /* HomeScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeScene.swift; sourceTree = "<group>"; };
+		8B15327C1CCA023B00D51A1B /* fretSensei-Launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fretSensei-Launch.png"; sourceTree = "<group>"; };
+		8B244BF31C893AA500681A9E /* settingsButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = settingsButton.swift; sourceTree = "<group>"; };
+		8B3601A11CACD5DC00A36319 /* string.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = string.png; sourceTree = "<group>"; };
+		8B48EA5E1CAA9246002FD1C8 /* starButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = starButton.png; sourceTree = "<group>"; };
+		8B48EA641CAAAF71002FD1C8 /* background-fretsensei.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "background-fretsensei.png"; path = "../background-fretsensei.png"; sourceTree = "<group>"; };
+		8B48EA661CAAB446002FD1C8 /* homeButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homeButton.png; sourceTree = "<group>"; };
+		8B640A651CBDF23D00EBE832 /* fretSenseiCorrect.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = fretSenseiCorrect.m4a; sourceTree = "<group>"; };
+		8B640A671CBDF40400EBE832 /* fretSenseiWrong.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = fretSenseiWrong.m4a; sourceTree = "<group>"; };
+		8B6660501CC7A6AB0022926E /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		8B697DBC1CAD08D900CA694D /* headstockWood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = headstockWood.png; path = ../headstockWood.png; sourceTree = "<group>"; };
+		8B697DBE1CAD0CC700CA694D /* nut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nut.png; sourceTree = "<group>"; };
+		8B697DC41CAD1F0900CA694D /* triangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = triangle.png; sourceTree = "<group>"; };
+		8B697DC81CAD2B0700CA694D /* peach.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = peach.png; sourceTree = "<group>"; };
+		8B98E97E1C98E68100772F72 /* DemoScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoScene.swift; sourceTree = "<group>"; };
+		8B98E9801C98F31500772F72 /* pointer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pointer.png; sourceTree = "<group>"; };
+		8B98E98A1C990F5D00772F72 /* fingerNoShadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fingerNoShadow.png; sourceTree = "<group>"; };
+		8B98E98B1C990F5D00772F72 /* fingerWithShadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fingerWithShadow.png; sourceTree = "<group>"; };
+		8BA1A8811C6ED75000F90C2D /* Fret.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fret.swift; sourceTree = "<group>"; };
+		8BA1A8831C6EE25C00F90C2D /* FretString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FretString.swift; sourceTree = "<group>"; };
+		8BAEE4C01CC2319C00A8D978 /* fretSenseiJingle.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = fretSenseiJingle.m4a; path = "../../../../Desktop/fretSensei Resources/fretSenseiJingle.m4a"; sourceTree = "<group>"; };
+		8BB2E5AB1CC0E75A00871D31 /* speakerON.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = speakerON.png; path = "../../../../Desktop/fretSensei Resources/speakerON.png"; sourceTree = "<group>"; };
+		8BB2E5AC1CC0E75A00871D31 /* speakerMute.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = speakerMute.png; path = "../../../../Desktop/fretSensei Resources/speakerMute.png"; sourceTree = "<group>"; };
+		8BB746C81C706F2100E39610 /* FretBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FretBoard.swift; sourceTree = "<group>"; };
+		8BBEDA931CBF4EDE0081E182 /* Instabug.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Instabug.bundle; sourceTree = "<group>"; };
+		8BBEDA941CBF4EDE0081E182 /* Instabug.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Instabug.framework; sourceTree = "<group>"; };
+		8BBEDA971CBF4EEB0081E182 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8BBEDA991CBF4EF10081E182 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		8BBEDA9B1CBF4EFF0081E182 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		8BBEDA9D1CBF4F040081E182 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8BBEDA9F1CBF4F0B0081E182 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8BBEDAA11CBF4F120081E182 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		8BBEDAA31CBF4F350081E182 /* bridging-header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "bridging-header.h"; sourceTree = "<group>"; };
+		8BC013961CA93F230084DB46 /* fretBoardWood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fretBoardWood.png; sourceTree = "<group>"; };
+		8BC046E21C87308F005CEA3D /* OpeningScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpeningScene.swift; sourceTree = "<group>"; };
+		8BC046E41C8730A1005CEA3D /* SettingScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingScene.swift; sourceTree = "<group>"; };
+		8BC2FF691C76C70300A185D4 /* FretSensei.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FretSensei.swift; sourceTree = "<group>"; };
+		8BC86E351C94E83800D3B97E /* AcoomplishmentScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AcoomplishmentScene.swift; sourceTree = "<group>"; };
+		8BC9CD8A1C6B052A008FEF3E /* Fret Sensei.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fret Sensei.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BC9CD8D1C6B052A008FEF3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8BC9CD911C6B052A008FEF3E /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		8BC9CD931C6B052A008FEF3E /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		8BC9CD961C6B052A008FEF3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8BC9CD981C6B052A008FEF3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8BC9CD9B1C6B052A008FEF3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8BC9CD9D1C6B052A008FEF3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BCBBACC1C8141E000BA63C1 /* button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = button.swift; sourceTree = "<group>"; };
+		8BEFC4E01CB25FCD00C2DFE2 /* settingsButtonWithHole.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settingsButtonWithHole.png; sourceTree = "<group>"; };
+		8BEFC4EA1CB28EF600C2DFE2 /* background-plain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background-plain.png"; sourceTree = "<group>"; };
+		8BF8BB761CD208D2004E6C2A /* fretSenseiClick.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = fretSenseiClick.m4a; sourceTree = "<group>"; };
+		8BFB3BC81CC152A700CD8BAB /* pick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pick.png; path = "../../../../Desktop/fretSensei Resources/pick.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BC9CD871C6B052A008FEF3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B6660511CC7A6AB0022926E /* SpriteKit.framework in Frameworks */,
+				8BBEDAA21CBF4F120081E182 /* CoreMotion.framework in Frameworks */,
+				8BBEDAA01CBF4F0B0081E182 /* AVFoundation.framework in Frameworks */,
+				8BBEDA9E1CBF4F040081E182 /* UIKit.framework in Frameworks */,
+				8BBEDA9C1CBF4EFF0081E182 /* SystemConfiguration.framework in Frameworks */,
+				8BBEDA9A1CBF4EF10081E182 /* CoreTelephony.framework in Frameworks */,
+				8BBEDA981CBF4EEB0081E182 /* CoreGraphics.framework in Frameworks */,
+				8BBEDA961CBF4EDE0081E182 /* Instabug.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8BC9CD811C6B052A008FEF3E = {
+			isa = PBXGroup;
+			children = (
+				8B6660501CC7A6AB0022926E /* SpriteKit.framework */,
+				8BBEDAA31CBF4F350081E182 /* bridging-header.h */,
+				8BBEDAA11CBF4F120081E182 /* CoreMotion.framework */,
+				8BBEDA9F1CBF4F0B0081E182 /* AVFoundation.framework */,
+				8BBEDA9D1CBF4F040081E182 /* UIKit.framework */,
+				8BBEDA9B1CBF4EFF0081E182 /* SystemConfiguration.framework */,
+				8BBEDA991CBF4EF10081E182 /* CoreTelephony.framework */,
+				8BBEDA971CBF4EEB0081E182 /* CoreGraphics.framework */,
+				8BBEDA931CBF4EDE0081E182 /* Instabug.bundle */,
+				8BBEDA941CBF4EDE0081E182 /* Instabug.framework */,
+				8BC9CD8C1C6B052A008FEF3E /* Fret Sensei */,
+				8BC9CD8B1C6B052A008FEF3E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8BC9CD8B1C6B052A008FEF3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BC9CD8A1C6B052A008FEF3E /* Fret Sensei.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BC9CD8C1C6B052A008FEF3E /* Fret Sensei */ = {
+			isa = PBXGroup;
+			children = (
+				8BF8BB761CD208D2004E6C2A /* fretSenseiClick.m4a */,
+				8B15327C1CCA023B00D51A1B /* fretSensei-Launch.png */,
+				8BAEE4C01CC2319C00A8D978 /* fretSenseiJingle.m4a */,
+				8BFB3BC81CC152A700CD8BAB /* pick.png */,
+				8BB2E5AB1CC0E75A00871D31 /* speakerON.png */,
+				8BB2E5AC1CC0E75A00871D31 /* speakerMute.png */,
+				8B640A671CBDF40400EBE832 /* fretSenseiWrong.m4a */,
+				8B640A651CBDF23D00EBE832 /* fretSenseiCorrect.m4a */,
+				8BEFC4EA1CB28EF600C2DFE2 /* background-plain.png */,
+				8BEFC4E01CB25FCD00C2DFE2 /* settingsButtonWithHole.png */,
+				8B697DC81CAD2B0700CA694D /* peach.png */,
+				8B697DC41CAD1F0900CA694D /* triangle.png */,
+				8B697DBE1CAD0CC700CA694D /* nut.png */,
+				8B697DBC1CAD08D900CA694D /* headstockWood.png */,
+				8B3601A11CACD5DC00A36319 /* string.png */,
+				8B48EA661CAAB446002FD1C8 /* homeButton.png */,
+				8B48EA641CAAAF71002FD1C8 /* background-fretsensei.png */,
+				8B48EA5E1CAA9246002FD1C8 /* starButton.png */,
+				8BC013961CA93F230084DB46 /* fretBoardWood.png */,
+				8B98E98A1C990F5D00772F72 /* fingerNoShadow.png */,
+				8B98E98B1C990F5D00772F72 /* fingerWithShadow.png */,
+				8BC9CD8D1C6B052A008FEF3E /* AppDelegate.swift */,
+				8B98E97E1C98E68100772F72 /* DemoScene.swift */,
+				8BC046E21C87308F005CEA3D /* OpeningScene.swift */,
+				8B13FA321C929A49007B0F51 /* HomeScene.swift */,
+				8BC86E351C94E83800D3B97E /* AcoomplishmentScene.swift */,
+				8BC046E41C8730A1005CEA3D /* SettingScene.swift */,
+				8BC9CD911C6B052A008FEF3E /* GameScene.swift */,
+				8BC9CD931C6B052A008FEF3E /* GameViewController.swift */,
+				8BCBBACC1C8141E000BA63C1 /* button.swift */,
+				8B244BF31C893AA500681A9E /* settingsButton.swift */,
+				8BC2FF691C76C70300A185D4 /* FretSensei.swift */,
+				8BA1A8811C6ED75000F90C2D /* Fret.swift */,
+				8BA1A8831C6EE25C00F90C2D /* FretString.swift */,
+				8BB746C81C706F2100E39610 /* FretBoard.swift */,
+				8BC9CD951C6B052A008FEF3E /* Main.storyboard */,
+				8BC9CD981C6B052A008FEF3E /* Assets.xcassets */,
+				8BC9CD9A1C6B052A008FEF3E /* LaunchScreen.storyboard */,
+				8BC9CD9D1C6B052A008FEF3E /* Info.plist */,
+				8B98E9801C98F31500772F72 /* pointer.png */,
+			);
+			path = "Fret Sensei";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BC9CD891C6B052A008FEF3E /* Fret Sensei */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BC9CDA01C6B052A008FEF3E /* Build configuration list for PBXNativeTarget "Fret Sensei" */;
+			buildPhases = (
+				8BC9CD861C6B052A008FEF3E /* Sources */,
+				8BC9CD871C6B052A008FEF3E /* Frameworks */,
+				8BC9CD881C6B052A008FEF3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fret Sensei";
+			productName = "Fret Sensei";
+			productReference = 8BC9CD8A1C6B052A008FEF3E /* Fret Sensei.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BC9CD821C6B052A008FEF3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Amplary;
+				TargetAttributes = {
+					8BC9CD891C6B052A008FEF3E = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = YR8MV6589Y;
+					};
+				};
+			};
+			buildConfigurationList = 8BC9CD851C6B052A008FEF3E /* Build configuration list for PBXProject "Fret Sensei" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8BC9CD811C6B052A008FEF3E;
+			productRefGroup = 8BC9CD8B1C6B052A008FEF3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BC9CD891C6B052A008FEF3E /* Fret Sensei */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BC9CD881C6B052A008FEF3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B640A681CBDF40400EBE832 /* fretSenseiWrong.m4a in Resources */,
+				8B697DBF1CAD0CC700CA694D /* nut.png in Resources */,
+				8BFB3BC91CC152A700CD8BAB /* pick.png in Resources */,
+				8B697DBD1CAD08D900CA694D /* headstockWood.png in Resources */,
+				8B15327D1CCA023B00D51A1B /* fretSensei-Launch.png in Resources */,
+				8BC9CD9C1C6B052A008FEF3E /* LaunchScreen.storyboard in Resources */,
+				8B697DC91CAD2B0700CA694D /* peach.png in Resources */,
+				8B3601A21CACD5DC00A36319 /* string.png in Resources */,
+				8BC9CD991C6B052A008FEF3E /* Assets.xcassets in Resources */,
+				8B98E98C1C990F5D00772F72 /* fingerNoShadow.png in Resources */,
+				8BC013971CA93F230084DB46 /* fretBoardWood.png in Resources */,
+				8B98E98D1C990F5D00772F72 /* fingerWithShadow.png in Resources */,
+				8BB2E5AE1CC0E75A00871D31 /* speakerMute.png in Resources */,
+				8B98E9811C98F31500772F72 /* pointer.png in Resources */,
+				8B48EA5F1CAA9246002FD1C8 /* starButton.png in Resources */,
+				8B640A661CBDF23D00EBE832 /* fretSenseiCorrect.m4a in Resources */,
+				8BB2E5AD1CC0E75A00871D31 /* speakerON.png in Resources */,
+				8BEFC4E11CB25FCD00C2DFE2 /* settingsButtonWithHole.png in Resources */,
+				8B697DC51CAD1F0900CA694D /* triangle.png in Resources */,
+				8BF8BB771CD208D2004E6C2A /* fretSenseiClick.m4a in Resources */,
+				8B48EA671CAAB446002FD1C8 /* homeButton.png in Resources */,
+				8BEFC4EB1CB28EF600C2DFE2 /* background-plain.png in Resources */,
+				8BC9CD971C6B052A008FEF3E /* Main.storyboard in Resources */,
+				8BAEE4C11CC2319C00A8D978 /* fretSenseiJingle.m4a in Resources */,
+				8B48EA651CAAAF71002FD1C8 /* background-fretsensei.png in Resources */,
+				8BBEDA951CBF4EDE0081E182 /* Instabug.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BC9CD861C6B052A008FEF3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BA1A8841C6EE25C00F90C2D /* FretString.swift in Sources */,
+				8BC9CD921C6B052A008FEF3E /* GameScene.swift in Sources */,
+				8BC9CD941C6B052A008FEF3E /* GameViewController.swift in Sources */,
+				8BC046E51C8730A1005CEA3D /* SettingScene.swift in Sources */,
+				8BCBBACD1C8141E000BA63C1 /* button.swift in Sources */,
+				8BA1A8821C6ED75000F90C2D /* Fret.swift in Sources */,
+				8BC046E31C87308F005CEA3D /* OpeningScene.swift in Sources */,
+				8BC86E361C94E83800D3B97E /* AcoomplishmentScene.swift in Sources */,
+				8BC2FF6A1C76C70300A185D4 /* FretSensei.swift in Sources */,
+				8B98E97F1C98E68100772F72 /* DemoScene.swift in Sources */,
+				8BC9CD8E1C6B052A008FEF3E /* AppDelegate.swift in Sources */,
+				8B13FA331C929A49007B0F51 /* HomeScene.swift in Sources */,
+				8B244BF41C893AA500681A9E /* settingsButton.swift in Sources */,
+				8BB746C91C706F2100E39610 /* FretBoard.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8BC9CD951C6B052A008FEF3E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BC9CD961C6B052A008FEF3E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8BC9CD9A1C6B052A008FEF3E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BC9CD9B1C6B052A008FEF3E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8BC9CD9E1C6B052A008FEF3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8BC9CD9F1C6B052A008FEF3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8BC9CDA11C6B052A008FEF3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Fret Sensei/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amplary.Fret-Sensei";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/tanlubin/Documents/Xcode Learning/Fret Sensei/bridging-header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8BC9CDA21C6B052A008FEF3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Fret Sensei/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amplary.Fret-Sensei";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/tanlubin/Documents/Xcode Learning/Fret Sensei/bridging-header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BC9CD851C6B052A008FEF3E /* Build configuration list for PBXProject "Fret Sensei" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BC9CD9E1C6B052A008FEF3E /* Debug */,
+				8BC9CD9F1C6B052A008FEF3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BC9CDA01C6B052A008FEF3E /* Build configuration list for PBXNativeTarget "Fret Sensei" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BC9CDA11C6B052A008FEF3E /* Debug */,
+				8BC9CDA21C6B052A008FEF3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8BC9CD821C6B052A008FEF3E /* Project object */;
+}
